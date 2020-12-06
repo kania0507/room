@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Add the slick-theme.css if you want default styling 
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>-->
+<!-- Add the slick-theme.css if you want default styling 
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>-->
+ 
+ 
+  <title>Frontend Mentor | Room homepage</title>
+
+</head>
+
+<body> 
+ 
+   
+<div class="page_wrapper">
+ 
+<header class="header">
+
+
+<div class="wrapper">
+  <div class="mask"></div>
+  <nav class="header__nav">    
+    
+    <div class="menuMobile">
+      <div class="button"></div>
+      <img src="./images/logo.svg" alt="logo">
+      <div class="activeMenu">
+        <ul>
+          <li>home</li>
+          <li>shop</li>
+          <li>about</li>
+          <li>contact</li>
+        </ul>
+      </div>
+    </div>
+    <div class="menuDesktop">
+      <img src="./images/logo.svg" alt="logo">
+      <ul>
+        <li>home</li>
+        <li>shop</li>
+        <li>about</li>
+        <li>contact</li>
+      </ul>
+    </div>
+   </nav>
+
+   <div id="myslider" class="slider" >
+    
+    <div class="slider__slide">
+      <div class="slider__slide__left hero-1"></div>
+            <div class="slider__slide__right">
+            <h1>Discover innovative ways to decorate1</h1>
+    
+            <p>We provide unmatched quality, comfort, and style for property owners across the country. 
+            Our experts combine form andnfunction in bringing your vision to life. Create a room in your 
+            own style with our collection and make your property a reflection of you and what you love.</p>
+            <p><a href="#" class="slider__slide__right__link">Shop now <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill="#000" fill-rule="nonzero"/></svg>
+            </a> </p>
+            <div class="slider__slide__right__arrows">
+              <button class="slider__slide__right__arrows--prev" onclick="slider.prev(); " ><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg>
+              </button>
+              <button class="slider__slide__right__arrows--next"  onclick="slider.next(); "><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg>
+              </button>
+            </div>
+          </div>
+    </div>
+    
+    <div class="slider__slide">
+    
+        <div class="slider__slide__left hero-2"></div>
+        <div class="slider__slide__right">
+          <h1>We are available all across the globe2</h1>
+    
+          <p>With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+            Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+            store locator. Any questions? Don't hesitate to contact us today.</p>
+          <p><a href="#" class="slider__slide__right__link">Shop now <img src="./images/icon-arrow.svg" /></a></a>  </p>
+        <div class="slider__slide__right__arrows">
+          <button class="slider__slide__right__arrows--prev" onclick="slider.prev()"><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg>
+          </button>
+          <button class="slider__slide__right__arrows--next" onclick="slider.next()"><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg>
+          </button>
+        </div>
+      </div>
+    
+    </div>
+    
+    <div class="slider__slide">
+    
+        <div class="slider__slide__left hero-3"></div>
+        <div class="slider__slide__right">
+          <h1>Manufactured with the best materials3</h1>
+    
+          <p>Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+            to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+            experience in this industry, we understand what customers want for their home and office.</p>
+          <p><a href="#" class="slider__slide__right__link">Shop now <img src="./images/icon-arrow.svg" /></a> </p>
+        <div class="slider__slide__right__arrows">
+          <button class="slider__slide__right__arrows--prev prev"  onclick="slider.prev()"><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg>
+          </button>
+        <button class="slider__slide__right__arrows--next next" onclick="slider.next()"><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg>
+          </button>
+        </div>
+      </div>
+    
+    </div>
+    </div>
+
+  
+</div>
+</header>
+
+  <main class="main">
+    <div class="main__col main__col--1"></div>
+    <div class="main__col main__col--2">
+      <h2>About our furniture3</h2>
+
+      <p>Our multifunctional collection blends design and function to suit your individual taste.
+      Make each room unique, or pick a cohesive theme that best express your interests and what
+      inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+      or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+      <div class="main__col main__col--3"></div>
+    </main> 
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="http://github.com/kania0507">AKC</a>.
+    </div>
+</footer>
+</div>
+</body>
+<script src="https://rawgit.com/ruyadorno/simple-slider/master/dist/simpleslider.min.js"></script>
+<script src="./assets/js/main.js"></script>
+<script>
+ 
+///
+
+  
+</script>
+</html>

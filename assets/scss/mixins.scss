@@ -1,0 +1,5 @@
+@mixin insert-hero($image-url) {
+    background-image: url($image-url); 
+    background-size: cover;
+    width: 100%;
+  }
